@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoaib Forms</title>
+</head>
+
+<body>
+  <h1>Sample Form of Shoaib Ansari</h1>
+  <form method="post">
+    <div>
+      <label for="username">Username: </label>
+      <input type="text" name="user_name" id="username" placeholder="Enter please" autofocus />
+    </div>
+
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" name="user_pass" id="password" placeholder="Enter pass" required />
+    </div>
+
+    <div>
+      <input type="radio" id="male" name="user_gender" value="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="user_gender" value="female" />
+      <label for="female">Female</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="subscribe" name="user_subsription" value="yes" />
+      <label for="subscribe">Subscribe to newsletter</label>
+    </div>
+
+    <div>
+      <textarea name="user_comment" rows="4" cols="30" placeholder="Please enter comment">
+      Please enter comment here</textarea>
+    </div>
+
+    <div>
+      Select fruit please <br />
+      <select name="user_fruit">
+        <option value="mango">Mango</option>
+        <option value="wm">Watermelon</option>
+        <option value="ban">Banana</option>
+      </select>
+    </div>
+
+    <div>
+      <textarea name="user_comment1" rows="4" cols="40" placeholder="Please enter comment"></textarea>
+    </div>
+
+    <div>
+      <input type="radio" id="male1" name="user_gender1" value="male1" />
+      <label for="male1">Malee</label>
+    </div>
+
+    <div>
+      <input type="radio" id="female1" name="user_gender2" value="female1" />
+      <label for="female1">Femalee</label>
+    </div>
+
+    <br /> <!-- Not recommended -->
+    
+    <div>
+      <input type="submit" value="Submit">
+    </div>
+
+  </form>
+  <a href="./14-forms.html"><h2>Back</h2></a>
+</body>
+
+</html>

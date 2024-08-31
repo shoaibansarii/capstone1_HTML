@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>14) HTML forms</h1>
+    <h2>Syntax</h2>
+    <pre>
+        <code>
+            &lt;form>
+                //form controls-->creeated by &lt;input> tag
+            &lt;/form>
+        </code>
+    </pre>
+    <h3>NOTE: We put form controls within &lt;div> tags as:</h3>
+    <ul>
+        <li>div serves as a container for HTML elements which can be easily styled using class and id attributes</li>
+        <li>div defines a division/section (better than the br tag)</li>
+    </ul>
+    <hr/>
+
+    <h2>&lt;form 'attributes' > &lt;/form></h2>
+    <ol>
+        <li>action: sent to a server side file</li>
+        <li>method: specifies the HTTP method
+            <ul>
+                <li>GET</li>
+                <li>POST</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>&lt;input 'attributes' /> </h2>
+    <ol>
+        <li>type</li>
+        <li>id</li>
+        <li>name</li>
+        <li>value</li>
+        <li>placeholder</li>
+        <li>required</li>
+        <li>autofocus</li>
+        <li>pattern</li>
+    </ol>
+    <p>NOTE: Each input field must have 'name' attribute</p>
+
+    <h2>Label Tag</h2>
+    <h3>&lt;label for="id">&lt;/label></h3>
+    <ul>
+        <li>Defines a label for form elements</li>
+        <li>Even if user clicks on label element, it toggles the form element</li>
+        <li>'for' attribute should be = 'id' of input to bind together</li>
+
+
+    </ul>
+
+    <h2>Input types: type="_"</h2>
+    <ul>
+        <li>text</li>
+        <li>password</li>
+        <li>radio</li>
+        <li>checkbox</li>
+        <li>submit</li>
+        <li>reset</li>
+        <li>button</li>
+        <li>others: color, date, email, file, month, number, range, search, tel, time, url, week, datetime-local</li>
+    </ul>
+    <hr/>
+
+    <h2>Textarea element</h2>
+    <p>Used when you need multiline text input like in comments, reviews.</p>
+    <h3>Syntax</h3>
+    <pre><code>
+        &lt;textarea name="" rows="" cols="" placeholder="optional">
+            //usually left empty
+        &lt;/textarea>
+    </code>
+    </pre>
+
+    <h2>Select element</h2>
+    <ul>
+        <li>Creates a dropdown menu</li>
+        <li>the 'option' tag represents an item in the dropdown list</li>
+    </ul>
+    <h3>Syntax</h3>
+    <pre>
+        <code>
+            &lt;select name="_">
+                &lt;option value="_">____&lt;/option>
+                .
+                .
+            &lt;/select>
+        </code>
+    </pre>
+    <hr/>
+
+    <a href="./14_2-forms.html"><h2>Check sample form here</h2></a>
+    <hr/>
+
+    <a href="./13-seo_cwv.html">&lt;&lt; Previous</a>
+    <a href="../fullhtml.html">&nbsp; HTML Revision &nbsp;</a>
+    <a href="./15-inline_block.html">Next &gt;&gt;</a>
+
+    <p>&copy; 2024 &nbsp;&nbsp;&nbsp;&dollar;hoaib &amp;nsari |&nbsp; All rights reserved</p>
+    <a href="../../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+</body>
+</html>

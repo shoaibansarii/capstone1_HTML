@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media</title>
+</head>
+<body>
+    <h1>17) HTML Media</h1>
+    <h2>1. Video Tag</h2>
+    <h3>&lt;video 'attributes'>&lt;/video></h3>
+    <ul>
+        <li>src: path to video file</li>
+        <li>controls: play/pause/volume</li>
+        <li>autoplay</li>
+        <li>loop</li>
+        <li>muted</li>
+        <li>poster</li>
+        <li>width, height</li>
+    </ul>
+
+    <h2>2. Audio Tag</h2>
+    <h3>&lt;audio 'attributes'>&lt;/audio></h3>
+    <ul>
+        <li>src: path to audio file</li>
+        <li>controls: play/pause/volume</li>
+        <li>autoplay</li>
+        <li>loop</li>
+        <li>muted</li>
+        <li>preload
+            <ul type="circle">
+                <li>none</li>
+                <li>metadata (like audio duration)</li>
+                <li>auto</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>3. SVG</h2>
+    <h3>Three ways to embed SVG </h3>
+    <ol>
+        <li> &lt;svg>&lt;/svg> tag: inline SVG, write SVG XML code in HTML doc itself</li>
+        <li>using img tag and point src to an SVG file: this src can be
+            <ul type="circle">
+                <li>already built SVG file</li>
+                <li>create it by writing SVG XML code [namspace declaration required:
+                <pre><code>
+                    &lt;svg xmlns="http://www.w3.org/2000/svg">
+                        <-- more tags here -->
+                      &lt;/svg>
+                </code></pre>     
+                </li>
+
+            </ul>
+        </li>
+        <li>using CSS: set SVG as background image in CSS file</li>
+    </ol>
+
+    <h2>4. iFrames (Inline Frames)</h2>
+    <h3>To embed another HTML webpage (website) on your page, alongwith external plugins and widgets</h3>
+    <h3>&lt;iframe 'attributes'>&lt;/iframe></h3>
+    <ul>
+        <li>src: URL of page to embed (use EMBED Feature of YouTube, Google Maps)</li>
+        <li>height, width</li>
+        <li>frameborder</li>
+        <li>scrolling</li>
+        <li>name</li>
+        <li>allowfullscreen</li>
+    </ul>
+
+    <hr/>
+    <a href="./17-2-media.html"><p>Check sample example here</p></a>
+
+    
+    <hr/>
+    <a href="./16-id_classes.html">&lt;&lt; Previous</a>
+    <a href="../fullhtml.html">&nbsp; HTML Revision &nbsp;</a>
+    <a href="./18-semantic.html">Next &gt;&gt;</a>
+
+    <p>&copy; 2024 &nbsp;&nbsp;&nbsp;&dollar;hoaib &amp;nsari |&nbsp; All rights reserved</p>
+    <a href="../../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+    
+
+
+</body>
+</html>

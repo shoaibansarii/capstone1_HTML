@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDs and Classes</title>
+    <link rel="stylesheet" href="../../css/16-id and classes.css">
+</head>
+<body>
+    <h1>16) ID and Classes</h1>
+    <h2>ID</h2>
+    <ul>
+        <li>unique identifier to only 1 HTML element</li>
+        <li>used for unique styling and JS manipulations</li>
+        <li>In CSS selected using #</li>
+        <li>Also used in linking [...url#id]--> goes directly to that id</li>
+    </ul>
+
+    <h2>Classes</h2>
+    <ul>
+        <li>for grouping elements</li>
+        <li>can be given to multiple elements</li>
+        <li>for an element, can give many classes with a space</li>
+        <li>used for applying same styles/behaviours to a group of elements</li>
+        <li>In CSS selected using .</li>
+    </ul>
+
+    <h3>NOTE: ID and Classes are Attributes</h3>
+
+    <h3>EXAMPLE</h3>
+    <pre>
+        <code>
+            HTML code snippet:
+
+            &lt;div id="firstdiv" class="red bg-yellow">First&lt;/div>
+            &lt;div id="seconddiv" class="bg-yellow">Second&lt;/div>
+            &lt;span id="firstspan" class="red">Span&lt;/span>
+
+
+
+            CSS code snippet:
+
+            .red{
+                color: red;
+            }
+            
+            .bg-yellow{
+                background-color: yellow;
+            }
+            
+            #firstspan{
+                background-color: blue;
+            }
+        </code>
+    </pre>
+
+    <p>Output:</p>
+    <div id="firstdiv" class="red bg-yellow">First</div>
+    <div id="seconddiv" class="bg-yellow">Second</div>
+    <span id="firstspan" class="red">Span</span>
+
+    <hr/>
+    <a href="./15-inline_block.html">&lt;&lt; Previous</a>
+    <a href="../fullhtml.html">&nbsp; HTML Revision &nbsp;</a>
+    <a href="./17-media.html">Next &gt;&gt;</a>
+
+    <p>&copy; 2024 &nbsp;&nbsp;&nbsp;&dollar;hoaib &amp;nsari |&nbsp; All rights reserved</p>
+    <a href="../../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+    
+</body>
+</html>

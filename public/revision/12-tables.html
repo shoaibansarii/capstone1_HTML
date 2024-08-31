@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>12) HTML Tables</h1>
+    <h2>Syntax</h2>
+    <pre> <code>
+            &lt;table&gt;
+                //table content
+            &lt;/table&gt;
+    </code>
+    </pre>
+    <h2>Key Elements</h2>
+    <ul>
+        <li>&lt;table>: defines the table</li>
+        <li>&lt;thead>: header content</li>
+        <li>&lt;tbody>: body content</li>
+        <li>&lt;tfoot>: footer content</li>
+        <li>&lt;th>: for table heading</li>
+        <li>&lt;tr>: for table rows</li>
+        <li>&lt;td>: for table data/cols</li>
+    </ul>
+
+    <h2>Attributes</h2>
+    <ul>
+        <li>Rowspan &lt;td rowspan="value"&gt;</li>
+        <li>Colspan &lt;td colspan="value"&gt;</li>
+        <li>Caption</li>
+    </ul>
+
+    <h2>Example 1</h2>
+    <pre>
+        <code>
+    &lt;table&gt;
+        &lt;caption&gt;Employee details&lt;/caption&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Age&lt;/th&gt;
+            &lt;th&gt;Designation&lt;/th&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt;Shoaib&lt;/td&gt;
+            &lt;td&gt;24&lt;/td&gt;
+            &lt;td&gt;Programmer&lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+            &lt;td&gt;Ansari&lt;/td&gt;
+            &lt;td&gt;25&lt;/td&gt;
+            &lt;td&gt;Web dev&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+        </code>
+    </pre>
+    <img src="../../assets/images/12-tables.png" alt="tables example" border="1" height="100"/>
+    <hr/>
+    <h2>Example 2</h2>
+    <pre>
+        <code>
+    &lt;table border="1"&gt;
+        &lt;!-- Caption --&gt;
+        &lt;caption&gt;Employee Information&lt;/caption&gt;
+
+        &lt;!-- Table Header --&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;ID&lt;/th&gt;
+                &lt;th&gt;Name&lt;/th&gt;
+                &lt;th&gt;Position&lt;/th&gt;
+                &lt;th&gt;Salary&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+
+        &lt;!-- Table Body --&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;Alice&lt;/td&gt;
+                &lt;td&gt;Developer&lt;/td&gt;
+                &lt;td&gt;$80,000&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;2&lt;/td&gt;
+                &lt;td&gt;Bob&lt;/td&gt;
+                &lt;td&gt;Designer&lt;/td&gt;
+                &lt;td&gt;$70,000&lt;/td&gt;
+            &lt;/tr&gt;
+            lt;tr&gt;
+                &lt;td&gt;3&lt;/td&gt;
+                &lt;td&gt;Carol&lt;/td&gt;
+                &lt;td&gt;Manager&lt;/td&gt;
+                &lt;td&gt;$90,000&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+
+    &lt;!-- Table Footer --&gt;
+        &lt;tfoot&gt;
+            &lt;tr&gt;
+                &lt;td colspan="3"&gt;Total Employees&lt;/td&gt;
+                &lt;td&gt;3&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tfoot&gt;
+    &lt;/table&gt;
+        </code>
+    </pre>
+    <img src="../../assets/images/12_1-tables.png" alt="example 2" height="200"/>
+
+    <hr/>
+
+    <a href="./11-host.html">&lt;&lt; Previous</a>
+    <a href="../fullhtml.html">&nbsp; HTML Revision &nbsp;</a>
+    <a href="./13-seo_cwv.html">Next &gt;&gt;</a>
+
+    <p>&copy; 2024 &nbsp;&nbsp;&nbsp;&dollar;hoaib &amp;nsari |&nbsp; All rights reserved</p>
+    <a href="../../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+</body>
+</html>
